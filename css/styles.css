@@ -6,7 +6,11 @@
 body {
     background-color: darkgoldenrod;
     color: white;
-    font-family: monospace;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1.25rem;
     padding-top: 5rem;
+}
+
+.col-xs-6 img {
+    display: block;
 }
