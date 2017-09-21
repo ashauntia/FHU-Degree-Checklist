@@ -13,8 +13,8 @@ body {
     padding-top: 5rem;
 }
 
-.class-category {
-    margin-top: 1rem;
+.class-category h4 {
+    text-align: center;
 }
 
 .class-img img {
