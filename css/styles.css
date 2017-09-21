@@ -1,12 +1,33 @@
 .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
+    background-color: darkslategray;
+    margin-bottom: 5rem;
 }
 
 body {
     background-color: darkgoldenrod;
     color: white;
-    font-family: monospace;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1.25rem;
     padding-top: 5rem;
+}
+
+.class-category h4 {
+    text-align: center;
+}
+
+.class-img img {
+    display: block;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.class-name {
+    margin-top: 1rem;
+}
+
+.class-name p {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
 }

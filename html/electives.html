@@ -16,12 +16,13 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Eczar|Work+Sans" rel="stylesheet">
 </head>
 
 <body>
     <!-- This is the Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="/html/index.html">GradReport</a>
+        <a class="navbar-brand" href="index.html">GradReport</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,86 +30,80 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/html/index.html">Liberal Arts Core</a>
+                    <a class="nav-link" href="index.html">Liberal Arts Core</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/html/major-requirements.html">Major Requirements</a>
+                    <a class="nav-link" href="major-requirements.html">Major Requirements</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/html/electives.html">Electives<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="electives.html">Electives<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- This is the end of the Navigation Bar -->
 
-    <div class="student">
+    <div class="container">
 
-        <!-- This is the Student Image Block -->
-        <div class="student-img">
+        <div class="starter-template">
 
-            <img id="student-picture" src="/img/student-img.jpeg" alt="Picture of student: Ashauntia Paulette">
+            <img src="/img/student-img.jpeg" alt="Picture of student: Ashauntia Paulette">
+            <h1>Ashauntia Paulette</h1>
+            <p><span class="student-info">Major</span>: Computer Science, Software Development</p>
+            <p><span class="student-info">Overall GPA</span>: 1.81</p>
+            <p><span class="student-info">Classification</span>: Junior</p>
+            <p><span class="student-info">Total Hours</span>: 59 of 126</p>
         </div>
 
-        <!-- This is the Student Info Block -->
-        <div class="student-info">
+        <!-- This is the Computer Science Block -->
+        <div class="liberal-arts-core">
 
-            <h2 id="student-name">Ashauntia Paulette</h2>
+            <h3><span class="info-details">Software Development Reccomended Electives</span>: 25 hours</h3>
 
-            <p><span class="info-details">Major</span>: Computer Science, Software Development</p>
+            <!--Computer Science Core -->
+            <div class="bible">
 
-            <p><span class="info-details">Major Hours</span>: 19 of 66</p>
+                <p>Introduction to Web Design</p><img src="/img/completed-class.jpg" alt="Completed Class">
 
-            <p><span class="info-details">Major GPA</span>: 1.48</p>
+                <br><br>
+
+                <p>Human-Computer Interaction</p><img src="/img/failed-class.jpg" alt="Failed Class">
+
+                <br><br>
+
+                <p>Mobile Application Development</p><img src="/img/required-class.jpg" alt="Required Class">
+
+                <br><br>
+
+                <p>Advanced Computer Programming</p><img src="/img/required-class.jpg" alt="Required Class">
+
+                <br><br>
+
+                <p>Leadership</p><img src="/img/completed-class.jpg" alt="Completed Class">
+
+            </div>
+
+            <!--This is a style protector block -->
+            <div class="basic-skills">
+
+
+            </div>
+
+            <div class="perspective">
+
+            </div>
+            <!--Style protector-->
 
         </div>
+
+        <footer>
+
+            <p>Made by Ashauntia Paulette &copy; 2017 Freed-Hardeman University. All rights reserved.</p>
+        </footer>
     </div>
-
-    <!-- This is the Computer Science Block -->
-    <div class="liberal-arts-core">
-
-        <h3><span class="info-details">Software Development Reccomended Electives</span>: 25 hours</h3>
-
-        <!--Computer Science Core -->
-        <div class="bible">
-
-            <p>Introduction to Web Design</p><img src="/img/completed-class.jpg" alt="Completed Class">
-
-            <br><br>
-
-            <p>Human-Computer Interaction</p><img src="/img/failed-class.jpg" alt="Failed Class">
-
-            <br><br>
-
-            <p>Mobile Application Development</p><img src="/img/required-class.jpg" alt="Required Class">
-
-            <br><br>
-
-            <p>Advanced Computer Programming</p><img src="/img/required-class.jpg" alt="Required Class">
-
-            <br><br>
-
-            <p>Leadership</p><img src="/img/completed-class.jpg" alt="Completed Class">
-
-        </div>
-
-        <!--This is a style protector block -->
-        <div class="basic-skills">
+    <!--End of container-->
 
 
-        </div>
-
-        <div class="perspective">
-
-        </div>
-        <!--Style protector-->
-
-    </div>
-
-    <footer>
-
-        <p>Made by Ashauntia Paulette &copy; 2017 Freed-Hardeman University. All rights reserved.</p>
-    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -133,7 +128,6 @@
             }
 
         }())
-
     </script>
 
 </body>

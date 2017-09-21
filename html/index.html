@@ -16,12 +16,13 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Eczar|Work+Sans" rel="stylesheet">
 </head>
 
 <body>
     <!-- This is the Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="/html/index.html">GradReport</a>
+        <a class="navbar-brand" href="index.html">GradReport</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,70 +30,101 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/html/index.html">Liberal Arts Core<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Liberal Arts Core<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/html/major-requirements.html">Major Requirements</a>
+                    <a class="nav-link" href="major-requirements.html">Major Requirements</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/html/electives.html">Electives</a>
+                    <a class="nav-link" href="electives.html">Electives</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- This is the end of the Navigation Bar -->
 
-    <div class="student">
+    <div class="container">
 
-        <!-- This is the Student Image Block -->
-        <div class="student-img">
+        <!-- This is the Student Block -->
+        <div class="starter-template">
 
-            <img id="student-picture" src="/img/student-img.jpeg" alt="Picture of student: Ashauntia Paulette">
+            <img src="/img/student-img.jpeg" alt="Picture of student: Ashauntia Paulette">
+            <h1>Ashauntia Paulette</h1>
+            <p><span class="student-info">Major</span>: Computer Science, Software Development</p>
+            <p><span class="student-info">Overall GPA</span>: 1.81</p>
+            <p><span class="student-info">Classification</span>: Junior</p>
+            <p><span class="student-info">Total Hours</span>: 59 of 126</p>
         </div>
+        <!--The end of the Student Block-->
 
-        <!-- This is the Student Info Block -->
-        <div class="student-info">
+        <div class="container">
 
-            <h2 id="student-name">Ashauntia Paulette</h2>
+            <!-- This is the General Ed Block -->
+            <div class="row">
 
-            <p><span class="info-details">Classification</span>: Junior</p>
+                <h3><span class="info-details">Liberal Arts Core</span>: 34 hours</h3>
+            </div>
 
-            <p><span class="info-details">Total Hours</span>: 59 of 126</p>
+            <!-- Class Categories -->
+            <div class="row class-category">
 
-            <p><span class="info-details">Overall GPA</span>: 1.81</p>
+                <div class="col-xs-6">
+                    <h4><span class="info-details">Biblical Values</span>: 4 of 7 hours</h4>
+                </div>
 
+                <div class="col-xs-6">
+                    <h4><span class="info-details">Basic Skills</span>: 12 of 12 hours</h4>
+                </div>
+            </div>
+            <!-- End class Categories -->
 
-            <p><span class="info-details">Major</span>: Computer Science, Software Development</p>
+            <!-- Classes -->
+            <div class="row class-name">
+
+                <div class="col-xs-4">
+
+                    <p>The Life of Christ</p>
+
+                    <p>Acts of the Apostles</p>
+
+                    <p>Foundations of Faith</p>
+                </div>
+
+                <div class="col-xs-2 class-img">
+
+                    <img src="/img/completed-class.jpg" alt="Completed Class">
+                    <img src="/img/completed-class.jpg" alt="Completed Class">
+                    <img src="/img/incomplete-class.png" alt="Incomplete Class">
+                </div>
+
+                <div class="col-xs-4">
+
+                    <p>English Composition I</p>
+
+                    <p>English Composition II</p>
+
+                    <p>Speech Communication I</p>
+
+                    <p>Analytics &amp; Calculus I</p>
+                </div>
+
+                <div class="col-xs-2 class-img">
+
+                    <img src="/img/completed-class.jpg" alt="Completed Class">
+                    <img src="/img/completed-class.jpg" alt="Completed Class">
+                    <img src="/img/completed-class.jpg" alt="Completed Class">
+                    <img src="/img/completed-class.jpg" alt="Completed Class">
+                </div>
+            </div>
+            <!-- End classes -->
         </div>
-    </div>
-
-    <!-- This is the General Ed Block -->
-    <div class="liberal-arts-core">
-
-        <h3><span class="info-details">Liberal Arts Core</span>: 34 hours</h3>
-
-        <!-- This is the Bible Block -->
-        <div class="bible">
-
-            <h4><span class="info-details">Biblical Values</span>: 4 of 7 hours</h4>
-
-            <p>The Life of Christ</p><img src="/img/completed-class.jpg" alt="Completed Class">
-            <br><br>
-
-            <p>Acts of the Apostles</p><img src="/img/completed-class.jpg" alt="Completed Class">
-
-            <br><br>
-
-            <p>Foundations of Faith</p><img src="/img/incomplete.png" alt="Incomplete Class">
-
-            <br><br>
-        </div>
+        <!-- End container -->
 
         <!-- This is the Basic Skills Block -->
-        <div class="basic-skills">
+        <div class="basic-skills col-xs-6">
 
-            <h4><span class="info-details">Basic Skills</span>: 12 of 12 hours</h4>
-            <p>English Composition I</p><img src="/img/completed-class.jpg" alt="Completed Class">
+
+            <img src="/img/completed-class.jpg" alt="Completed Class">
 
             <br><br>
 
@@ -144,6 +176,10 @@
         <p>Made by Ashauntia Paulette &copy; 2017 Freed-Hardeman University. All rights reserved.</p>
     </footer>
 
+    </div>
+    <!-- End of container -->
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -167,7 +203,6 @@
             }
 
         }())
-
     </script>
 </body>
 
