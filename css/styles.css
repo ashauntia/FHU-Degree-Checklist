@@ -1,9 +1,4 @@
-.starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
-    background-color: darkslategray;
-    margin-bottom: 5rem;
-}
+/*Formatting CSS*/
 
 body {
     background-color: darkgoldenrod;
@@ -13,21 +8,27 @@ body {
     padding-top: 5rem;
 }
 
-.class-category h4 {
+.starter-template {
+    padding: 3rem 1.5rem;
     text-align: center;
+    background-color: darkslategray;
+    margin-bottom: 5rem;
+}
+
+h3,
+h4 {
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 .class-img img {
     display: block;
-    margin-left: 1rem;
     padding-bottom: 1rem;
-}
-
-.class-name {
-    margin-top: 1rem;
 }
 
 .class-name p {
-    margin-top: 1rem;
     padding-bottom: 1rem;
 }
+
+
+/*End Formatting CSS*/
