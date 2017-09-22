@@ -1,18 +1,49 @@
 /*Formatting CSS*/
 
 body {
-    background-color: darkgoldenrod;
+    background-color: darkslategray;
     color: white;
     font-family: 'Work Sans', sans-serif;
     font-size: 1.25rem;
     padding-top: 5rem;
 }
 
+.navbar {
+    background-color: maroon;
+}
+
 .starter-template {
-    padding: 3rem 1.5rem;
+    padding: 1rem 1.5rem;
     text-align: center;
-    background-color: darkslategray;
+    margin-top: 1.2rem;
     margin-bottom: 5rem;
+    border-radius: 5rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border: .1rem solid maroon;
+}
+
+.starter-template img {
+    margin-bottom: 1rem;
+}
+
+.starter-template h1 {
+    color: maroon;
+    text-decoration: underline;
+    padding: 1rem;
+    font-family: 'Ezra';
+}
+
+.starter-template p {
+    text-align: left;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.student-info {
+    color: maroon;
 }
 
 h3,
@@ -23,11 +54,22 @@ h4 {
 
 .class-img img {
     display: block;
-    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .class-name p {
-    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: right;
+}
+
+.class-block {
+    padding: 1rem;
+    margin-top: 1.2rem;
+    width: 100%;
+    border: .1rem solid maroon;
 }
 
 
