@@ -4,7 +4,7 @@ body {
     background-color: darkslategray;
     color: white;
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding-top: 5rem;
 }
 
@@ -12,12 +12,16 @@ body {
     background-color: maroon;
 }
 
+.lead {
+    text-align: center;
+}
+
 .starter-template {
     padding: 1rem 1.5rem;
     text-align: center;
     margin-top: 1.2rem;
     margin-bottom: 5rem;
-    border-radius: 5rem;
+    border-radius: 1rem;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -42,8 +46,11 @@ body {
     margin-right: auto;
 }
 
-.student-info {
+.student-info,
+.info-details {
     color: maroon;
+    font-family: 'Ezra';
+    font-weight: bold;
 }
 
 h3,
@@ -58,10 +65,15 @@ h4 {
     margin-bottom: 1rem;
 }
 
+.class-name {
+    margin-top: 2rem;
+}
+
 .class-name p {
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-top: 1rem;
+    padding-bottom: .7rem;
     text-align: right;
 }
 
@@ -70,6 +82,40 @@ h4 {
     margin-top: 1.2rem;
     width: 100%;
     border: .1rem solid maroon;
+    border-radius: 1rem;
+}
+
+.class-block h3 {
+    border-bottom: .1rem solid maroon;
+}
+
+.class-category {
+    border-right: .1rem solid maroon;
+}
+
+.class-category-comp {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    border-bottom: .1rem solid maroon;
+    margin-top: 1rem;
+}
+
+.last-col {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.last-col-classes {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    margin-top: 5rem;
+    text-align: center;
 }
 
 

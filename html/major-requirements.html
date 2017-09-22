@@ -21,7 +21,7 @@
 
 <body>
     <!-- This is the Navigation Bar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <a class="navbar-brand" href="index.html">GradReport</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,10 +30,10 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Liberal Arts Core</a>
+                    <a class="nav-link" href="index.html">Liberal Arts Core<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="major-requirements.html">Major Requirements<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="major-requirements.html">Major Requirements</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="electives.html">Electives</a>
@@ -44,122 +44,142 @@
     <!-- This is the end of the Navigation Bar -->
 
     <div class="container">
+        <div class="container class-block">
 
-        <div class="starter-template">
+            <!-- This is the General Ed Block -->
+            <div class="row">
 
-            <img src="/img/student-img.jpeg" alt="Picture of student: Ashauntia Paulette">
-            <h1>Ashauntia Paulette</h1>
-            <p><span class="student-info">Major</span>: Computer Science, Software Development</p>
-            <p><span class="student-info">Overall GPA</span>: 1.81</p>
-            <p><span class="student-info">Classification</span>: Junior</p>
-            <p><span class="student-info">Total Hours</span>: 59 of 126</p>
+                <div class="col-md-12">
+
+                    <h3><span class="info-details">Computer Science</span>: 63 hours</h3>
+                </div>
+            </div>
+
+            <!-- Class Categories -->
+            <div class="row">
+
+                <div class="col-md-6 class-category">
+
+                    <h4><span class="info-details">Computer Science Core</span>: 9 of 39 hours</h4>
+
+
+                    <div class="row class-name">
+
+                        <div class="col-md-6">
+
+                            <p>Computer Programming I</p>
+
+                            <p>Computer Programming II</p>
+
+                            <p>Database Systems</p>
+
+                            <p>Application Development I</p>
+
+
+                            <p>Data Structures</p>
+
+                            <p>Introductory Statistics</p>
+
+                            <p>Compter Networks</p>
+
+                            <p>Operating Systems</p>
+
+                            <p>Application Development II</p>
+
+                            <p>Algorithms</p>
+
+                            <p>Artificial Intelligence</p>
+
+                            <p>Advanced Topics</p>
+
+
+
+                            <p>Discrete Mathematics</p>
+                        </div>
+
+                        <!--Class Status-->
+                        <div class="col-md-6 class-img">
+
+                            <img src="/img/completed-class.jpg" alt="Completed Class">
+                            <img src="/img/completed-class.jpg" alt="Completed Class">
+                            <img src="/img/completed-class.jpg" alt="Complete Class">
+                            <img src="/img/incomplete-class.jpg" alt="Incomplete Class">
+                            <img src="/img/incomplete-class.jpg" alt="Completed Class">
+                            <img src="/img/incomplete-class.jpg" alt="Incomplete Class">
+                            <img src="/img/failed-class.jpg" alt="Failed Class">
+                            <img src="/img/failed-class.jpg" alt="Failed Class">
+                            <img src="/img/required-class.jpg" alt="Completed Class">
+                            <img src="/img/required-class.jpg" alt="Completed Class">
+                            <img src="/img/required-class.jpg" alt="Completed Class">
+                            <img src="/img/required-class.jpg" alt="Required Class">
+                            <img src="/img/required-class.jpg" alt="Completed Class">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+
+                    <h4><span class="info-details">Software Development</span>: 4 of 24 hours</h4>
+
+                    <div class="row class-name">
+
+                        <!--Basic Skills class-->
+                        <div class="col-md-8">
+
+                            <p>Analytics &amp; Calculus II</p>
+
+                            <p>Software Engineering</p>
+
+                            <p>Architecture &amp; Assembly Language</p>
+
+                            <p>Parallel Programming</p>
+
+                            <p>Programming Languages</p>
+
+
+
+                            <p>Physics II</p>
+                        </div>
+
+                        <!--Class status-->
+                        <div class="col-md-4 class-img">
+
+                            <img src="/img/completed-class.jpg" alt="Completed Class">
+                            <img src="/img/required-class.jpg" alt="Required Class">
+                            <img src="/img/required-class.jpg" alt="Required Class">
+                            <img src="/img/required-class.jpg" alt="Required Class">
+                            <img src="/img/required-class.jpg" alt="Required Class">
+                            <img src="/img/required-class.jpg" alt="Required Class">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- This is the Computer Science Block -->
-
-        <div class="liberal-arts-core">
-
-            <h3><span class="info-details">Computer Science</span>: 63 hours</h3>
-
-            <!--Computer Science Core -->
-            <div class="bible">
-
-                <h4><span class="info-details">Computer Science Core</span>: 9 of 39 hours</h4>
-
-                <p>Computer Programming I</p><img src="/img/completed-class.jpg" alt="Completed Class">
-
-                <br><br>
-
-                <p>Computer Programming II</p><img src="/img/completed-class.jpg" alt="Completed Class">
-
-                <br><br>
-
-                <p>Application Development I</p><img src="/img/incomplete-class.png" alt="incomplete Class">
-
-                <br><br>
-
-                <p>Application Development II</p><img src="/img/required-class.jpg" alt="Required Class">
-
-                <br><br>
-
-                <p>Data Structures</p><img src="/img/incomplete-class.png" alt="Inomplete Class">
-
-                <br><br>
-
-                <p>Database Systems</p><img src="/img/completed-class.jpg" alt="Completed Class">
-
-                <br><br>
-
-                <p>Compter Networks</p><img src="/img/failed-class.jpg" alt="Failed Class">
-
-                <br><br>
-
-                <p>Algorithms</p><img src="/img/required-class.jpg" alt="Required Class">
-
-                <br><br>
-
-                <p>Operating Systems</p><img src="/img/completed-class.jpg" alt="Completed Class">
-
-                <br><br>
-
-                <p>Artificial Intelligence</p><img src="/img/required-class.jpg" alt="Required Class">
-
-                <br><br>
-
-                <p>Advanced Topics</p><img src="/img/required-class.jpg" alt="Required Class">
-
-                <br><br>
-
-                <p>Introductory Statistics</p><img src="/img/incomplete-class.png" alt="Completed Class">
-
-                <br><br>
-
-                <p>Discrete Mathematics</p><img src="/img/required-class.jpg" alt="Required Class">
-
-                <br><br>
-            </div>
-
-            <!-- This is the Software Development Block -->
-            <div class="basic-skills">
-
-                <h4><span class="info-details">Software Development Requirements</span>: 4 of 24 hours</h4>
-
-                <p>Software Engineering</p><img src="/img/required-class.jpg" alt="Required Class">
-
-                <br><br>
-
-                <p>Architecture and Assembly Language</p><img src="/img/required-class.jpg" alt="Required Class">
-
-                <br><br>
-
-                <p>Parallel Programming</p><img src="/img/required-class.jpg" alt="Required Class">
-
-                <br><br>
-
-                <p>Programming Languages</p><img src="/img/required-class.jpg" alt="Required Class">
-                <br><br>
-
-                <p>Analytics &amp; Calculus II</p><img src="/img/completed-class.jpg" alt="Completed Class">
-                <br><br>
-
-                <p>Physics II</p><img src="/img/required-class.jpg" alt="Required Class">
-                <br><br>
-            </div>
-
-            <!--This is a style protector block -->
-            <div class="perspective">
-
-            </div>
-            <!--Style protector-->
-
-        </div>
-
-        <footer>
-
-            <p>Made by Ashauntia Paulette &copy; 2017 Freed-Hardeman University. All rights reserved.</p>
-        </footer>
+        <!-- End class Categories -->
     </div>
-    <!-- End of Container -->
+    <!-- End container -->
 
+    <!-- This is the Student Block -->
+    <div class="starter-template">
+
+        <img src="/img/student-img.jpeg" alt="Picture of student: Ashauntia Paulette">
+        <h1>Ashauntia Paulette</h1>
+        <p><span class="student-info">Major</span>: Computer Science, Software Development</p>
+        <p><span class="student-info">Overall GPA</span>: 1.81</p>
+        <p><span class="student-info">Classification</span>: Junior</p>
+        <p><span class="student-info">Total Hours</span>: 59 of 126</p>
+    </div>
+    <!--The end of the Student Block-->
+
+    <footer>
+        <div class="container">
+            <p>Made by Ashauntia Paulette &copy; 2017 Freed-Hardeman University. All rights reserved.</p>
+        </div>
+    </footer>
+
+    </div>
+    <!-- End of container -->
 
 
     <!-- Bootstrap core JavaScript

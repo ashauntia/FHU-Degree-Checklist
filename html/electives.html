@@ -21,7 +21,7 @@
 
 <body>
     <!-- This is the Navigation Bar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <a class="navbar-brand" href="index.html">GradReport</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Liberal Arts Core</a>
+                    <a class="nav-link" href="index.html">Liberal Arts Core<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="major-requirements.html">Major Requirements</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="electives.html">Electives<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="electives.html">Electives</a>
                 </li>
             </ul>
         </div>
@@ -45,6 +45,55 @@
 
     <div class="container">
 
+        <div class="container class-block">
+
+            <!-- This is the General Ed Block -->
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h3><span class="info-details">Reccomended Electives</span>: 25 hours</h3>
+                </div>
+            </div>
+
+            <!-- Class Categories -->
+            <div class="row">
+
+                <div class="col-md-9 class-category-comp">
+                    <div class="row class-name">
+
+                        <div class="col-md-6">
+
+                            <p>Leadership</p>
+
+                            <p>Introduction to Web Design</p>
+
+                            <p>Human-Computer Interaction</p>
+
+                            <p>Mobile Application Development</p>
+
+                            <p>Advanced Computer Programming</p>
+
+
+
+                        </div>
+
+                        <!--Class Status-->
+                        <div class="col-md-6 class-img">
+                            <img src="/img/completed-class.jpg" alt="Completed Class">
+                            <img src="/img/completed-class.jpg" alt="Completed Class">
+                            <img src="/img/completed-class.jpg" alt="Completed Class">
+                            <img src="/img/required-class.jpg" alt="Required Class">
+                            <img src="/img/required-class.jpg" alt="Required Class">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End class Categories -->
+        </div>
+        <!-- End container -->
+
+        <!-- This is the Student Block -->
         <div class="starter-template">
 
             <img src="/img/student-img.jpeg" alt="Picture of student: Ashauntia Paulette">
@@ -54,55 +103,15 @@
             <p><span class="student-info">Classification</span>: Junior</p>
             <p><span class="student-info">Total Hours</span>: 59 of 126</p>
         </div>
-
-        <!-- This is the Computer Science Block -->
-        <div class="liberal-arts-core">
-
-            <h3><span class="info-details">Software Development Reccomended Electives</span>: 25 hours</h3>
-
-            <!--Computer Science Core -->
-            <div class="bible">
-
-                <p>Introduction to Web Design</p><img src="/img/completed-class.jpg" alt="Completed Class">
-
-                <br><br>
-
-                <p>Human-Computer Interaction</p><img src="/img/failed-class.jpg" alt="Failed Class">
-
-                <br><br>
-
-                <p>Mobile Application Development</p><img src="/img/required-class.jpg" alt="Required Class">
-
-                <br><br>
-
-                <p>Advanced Computer Programming</p><img src="/img/required-class.jpg" alt="Required Class">
-
-                <br><br>
-
-                <p>Leadership</p><img src="/img/completed-class.jpg" alt="Completed Class">
-
-            </div>
-
-            <!--This is a style protector block -->
-            <div class="basic-skills">
-
-
-            </div>
-
-            <div class="perspective">
-
-            </div>
-            <!--Style protector-->
-
-        </div>
-
+        <!--The end of the Student Block-->
         <footer>
-
-            <p>Made by Ashauntia Paulette &copy; 2017 Freed-Hardeman University. All rights reserved.</p>
+            <div class="container">
+                <p>Made by Ashauntia Paulette &copy; 2017 Freed-Hardeman University. All rights reserved.</p>
+            </div>
         </footer>
-    </div>
-    <!--End of container-->
 
+    </div>
+    <!-- End of container -->
 
 
     <!-- Bootstrap core JavaScript
@@ -128,8 +137,8 @@
             }
 
         }())
-    </script>
 
+    </script>
 </body>
 
 </html>
